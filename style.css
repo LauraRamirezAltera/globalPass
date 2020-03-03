@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+}
+
+body {
+    background-image: url(./img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Montserrat';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.contact,
+.title{
+    text-align: center;
+    margin-top: 5rem;
+}
+.title img{
+    width: 13rem;
+    margin-bottom: 2rem;
+}
+.title p{
+ font-size: 20px;
+}
+.contact{
+    margin-top: 18rem;
+}
+.contact p{
+    font-size: 12px;
+}
+.contact img{
+    width: 3.5rem;
+}
+
+#contact{
+    display: none;
+}
+.contact_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact_box{
+    background-color: #ff8a32;
+    border-radius: 10px;
+}
+.btn_contact{
+    margin-bottom: 2rem;
+    border: 1px solid #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #fff;
+}
+
+button:active,
+button:focus {
+    outline: 0;
+    box-shadow: none
+}
+
+@media(max-width:360px){
+    .contact{
+        margin-top: 10rem;
+    }   
+}
