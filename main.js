@@ -1,3 +1,3 @@
-function mostrar(){
-    document.getElementById('contact').style.display="block";
-}
+// function mostrar(){
+//     document.getElementById('contact').style.display="block";
+// }
